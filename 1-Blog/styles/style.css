@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#374151, #111827);
+    font-family: 'Roboto', monospace;
+    color: #FFFFFF;
+    max-width: 1440px;
+    padding: 0px 180px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 18.75px;
+    color: #FFFFFF;
+}
+
+header span {
+    padding: 6px 12px;
+    border-radius: 3px;
+    background-color: #4b5563;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.63px;
+    text-align: center;
+
+}
+
+input {
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    width: 224px;
+    height: 40px;
+    background: url(../images/search.png) no-repeat scroll 14px 14px;
+    background-color: #1F2937;
+    padding-left: 35px;
+}
+
+.myblog {
+    font-size: 18px;
+    line-height: 21.09px;
+}
+
+.frontend {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.opacity {
+    opacity: 0.6;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.developer {
+    line-height: 28px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.developer span {
+    font-size: 14px;
+}
+
+.mainImage {
+    width: 896px;
+    height: 594px;
+    border-radius: 5px;
+    margin-bottom: 69px;
+}
+
+.text {
+    width: 708px;
+}
+
+.mainText {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.addText {
+    width: 708px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 103px;
+}
+
+footer {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
