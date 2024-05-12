@@ -6,19 +6,35 @@ body {
     background: linear-gradient(#374151, #111827);
     font-family: 'Roboto', monospace;
     color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
     max-width: 1440px;
-    padding: 0px 180px;
+    margin: 0 auto;
+}
+
+header,
+main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 71px 0 69px;
 }
 
 header ul {
     list-style: none;
 }
 
-header a {
+a {
     font-size: 16px;
-    text-decoration: none;
-    line-height: 18.75px;
+    line-height: 30px;
     color: #FFFFFF;
+}
+
+header a {
+    line-height: 18.75px;
+    text-decoration: none;
 }
 
 header span {
@@ -49,9 +65,7 @@ input {
 }
 
 .frontend {
-    font-size: 14px;
     line-height: 16.41px;
-    font-weight: 400;
     text-align: center;
 }
 
@@ -60,44 +74,45 @@ input {
 }
 
 h1 {
-    font-weight: 400;
     font-size: 24px;
     line-height: 38px;
-    margin-bottom: 14px;
     text-align: center;
+    max-width: 525px;
+    margin: 0 auto;
 }
 
 .developer {
     line-height: 28px;
-    font-weight: 400;
     font-size: 16px;
-}
-
-.developer span {
-    font-size: 14px;
+    margin-bottom: 28px;
 }
 
 .mainImage {
-    width: 896px;
-    height: 594px;
+    max-width: 896px;
+    max-height: 594px;
     border-radius: 5px;
     margin-bottom: 69px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text {
-    width: 708px;
+    max-width: 708px;
+    margin: 0 auto;
 }
 
-.mainText {
+.text p:first-child {
     font-size: 20px;
     line-height: 32px;
-    font-weight: 400;
 }
 
 .addText {
-    width: 708px;
     font-size: 16px;
     line-height: 30px;
+}
+
+.text p:last-child {
     margin-bottom: 103px;
 }
 
