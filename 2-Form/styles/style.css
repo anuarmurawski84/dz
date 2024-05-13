@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F39494;
+}
+
+form {
+    background-color: #FFFEFE;
+    text-align: center;
+    font-family: 'Open Sans', monospace;
+    max-width: 582px;
+    max-height: 573px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 225px;
+    margin-bottom: 226px;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 49.03px;
+    font-weight: 700;
+    padding: 72px 0 0 0;
+    margin: 0px;
+}
+
+p,
+a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.51px;
+}
+
+a {
+    color: #089FE0;
+}
+
+input {
+    max-width: 394px;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+    padding: 9px 11px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding-left: 11px;
+}
+
+input:focus {
+    background-color: #FFFFFF;
+    border: 1px solid;
+    font-style: normal;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #089FE0;
+    border: none;
+}
+
+input,
+button {
+    width: 394px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 5px;
+}
+
+#access {
+    color: #F5F5F5;
+    border: 1px solid #EEEEEE;
+    width: 15px;
+    height: 16px;
+    margin-bottom: 91px;
+}
